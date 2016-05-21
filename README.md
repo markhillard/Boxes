@@ -1,5 +1,7 @@
 # Boxes
 
+[![Boxes releases](https://img.shields.io/github/release/markhillard/Boxes.svg)](https://github.com/markhillard/Boxes/releases)
+
 Boxes is a tiny scoop of vanilla JavaScript that allows you to visualize HTML elements in high contrast. It helps with debugging layout issues and provides a quick way to outline elements without opening your web browser's inspector.
 
 ## Bookmarklet

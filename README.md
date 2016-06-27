@@ -12,6 +12,9 @@ Create a new bookmark called **Boxes** in your web browser and paste in the foll
 javascript:void%20function(){document.body.innerHTML+=%22%3Cstyle%3E*{background:%23000!important;border-color:%23000!important;box-shadow:0%200%201px%200%20%23a94442!important;color:%23fff!important;cursor:default!important;}*:hover{box-shadow:0%200%201px%200%20%233c763d!important;}%3C/style%3E%22}();
 ```
 
+- Click your new bookmark on the page you want to debug
+- Refresh the page to remove bookmarklet styles
+
 ## Console
 
 Open your web browser's developer tools and run the contents of [boxes.js](boxes.js) in console:
@@ -44,4 +47,4 @@ Boxes works in all modern web browsers and IE9+.
 
 Thanks to [@wernull](https://gist.github.com/wernull) for creating [Ghost CSS](https://gist.github.com/wernull/e9456b7aba5a3f9f91a6).
 
-I used `box-shadow` instead of `outline`, changed some colors, and added a few more CSS properties to make it pretty.
+I used `box-shadow` instead of `outline`, changed some colors, and added a few more CSS properties.

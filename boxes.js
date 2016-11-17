@@ -27,6 +27,7 @@
             right:1rem !important;\
             text-decoration:none !important;\
             top:1rem !important;\
+            z-index:2147483647 !important;\
             }\
             \
             #boxes-close:hover {\
